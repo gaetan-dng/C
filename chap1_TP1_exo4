@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+  int somme=0,N;
+  printf("Saisir un entier");
+  scanf("%d",&N);
+  for (int i = 1; i<=N; i++) somme+=i;
+  printf("%d\n",somme);
+  return 0;
+}
